@@ -1,6 +1,6 @@
-# ABI Ninja
+# Offchain-Compute Front from ABI Ninja
 
-Interact with smart contracts on any EVM chain. ABI Ninja provides an intuitive frontend for contracts from most popular EVM networks, currently supporting:
+Interact with smart contracts on any EVM chain. Thid front provides an intuitive frontend for contracts from most popular EVM networks, currently supporting:
 
 - **Verified contracts**. Pulls the code from [AnyABI](https://anyabi.xyz/) and [Etherscan API](https://docs.etherscan.io/) as a fallback option.
 - **Unverified contracts**. Two different options are available:
@@ -29,8 +29,8 @@ Before you begin, you need to install the following tools:
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/BuidlGuidl/abi.ninja.git
-cd abi.ninja
+git clone https://github.com/GQQQy/off-compute-front.git
+off-compute-front
 yarn install
 ```
 
@@ -40,11 +40,11 @@ yarn install
 yarn start
 ```
 
-Visit your local instance of ABI Ninja at: `http://localhost:3000`.
+Visit your local instance at: `http://localhost:3000`.
 
 # 🧪 Testing
 
-ABI Ninja uses Cypress for end-to-end testing. Our test suite covers user flows and ensures the application works correctly across different networks and contract types. The test suite will automatically run on pull requests.
+ Our test suite covers user flows and ensures the application works correctly across different networks and contract types. The test suite will automatically run on pull requests.
 
 ## Running Tests
 
@@ -85,8 +85,3 @@ When adding new features or modifying existing ones, please update or add corres
 
 For more information on writing Cypress tests, refer to the Cypress Documentation.
 
-## Contributing to ABI Ninja
-
-We welcome contributions to ABI Ninja!
-
-Please see [CONTRIBUTING.MD](https://github.com/BuidlGuidl/abi.ninja/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to ABI Ninja.
